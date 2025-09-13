@@ -16,9 +16,9 @@ document.addEventListener('DOMContentLoaded', () => {
     
     const message = `Thân gửi cô giáo iu dấu!!!,
 
-Nhân ngày sinh nhật, gửi cô những lời chúc tốt đẹp nhất.
+Nhân ngày sinh nhật, gửi đến cô những lời chúc tốt đẹp nhất.
 Chúc cô luôn dồi dào sức khỏe, tràn đầy niềm vui, và gặt hái được nhiều thành công hơn nữa trên con đường sự nghiệp trồng người.
-Mỗi thấy cô, con lại nhìn thấy những kỷ niệm ngày xưa. Mong rằng sau này dù con có thay đổi ra sao trưởng thành như thế nào thì trong mắt cô con vẫn luôn là con nhóc 16 - 17 tuổi của năm đó vô tư và ... rất thích kiếm chuyện với cô hihi!!
+Mong rằng sau này dù con có thay đổi ra sao trưởng thành như thế nào thì trong mắt cô con vẫn luôn là con nhóc 16 - 17 tuổi của năm đó vô tư và ... rất thích kiếm chuyện với cô hihi!!
 
 Xin chút cô tuổi mới thật hạnh phúc và bình an!`;
 
