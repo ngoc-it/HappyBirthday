@@ -14,13 +14,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const beaker = document.querySelector('.beaker');
     
-    const message = `Kính gửi cô,
+    const message = `Thân gửi cô giáo iu dấu!!!,
 
-Nhân ngày sinh nhật của cô, chúng em xin gửi những lời chúc tốt đẹp nhất.
+Nhân ngày sinh nhật, gửi cô những lời chúc tốt đẹp nhất.
 Chúc cô luôn dồi dào sức khỏe, tràn đầy niềm vui, và gặt hái được nhiều thành công hơn nữa trên con đường sự nghiệp trồng người.
-Cảm ơn cô vì tất cả những bài học, sự quan tâm và tình yêu thương mà cô đã dành cho chúng em. Cô là người lái đò thầm lặng đưa chúng em cập bến tri thức.
+Mỗi thấy cô, con lại nhìn thấy những kỷ niệm ngày xưa. Mong rằng sau này dù con có thay đổi ra sao trưởng thành như thế nào thì trong mắt cô con vẫn luôn là con nhóc 16 - 17 tuổi của năm đó vô tư và ... rất thích kiếm chuyện với cô hihi!!
 
-Xin chúc cô một tuổi mới thật hạnh phúc và bình an!`;
+Xin chút cô tuổi mới thật hạnh phúc và bình an!`;
 
     // Hiệu ứng tuần tự
     setTimeout(() => {
@@ -34,17 +34,14 @@ Xin chúc cô một tuổi mới thật hạnh phúc và bình an!`;
 
             setTimeout(() => {
                 beakerContainer.style.display = 'none';
+                instruction.style.display = 'none'; // Ẩn dòng chữ hướng dẫn
                 
-                // Cập nhật lại dòng chữ hướng dẫn
-                instruction.textContent = "Chúc mừng sinh nhật cô! Chúc cô một tuổi mới hạnh phúc và thành công!";
+                // Chuyển sang trang lời chúc
+                page1.classList.remove('active-page');
+                page2.classList.add('active-page');
+                typeMessage(message);
 
-                setTimeout(() => {
-                    // Chuyển sang trang lời chúc
-                    page1.classList.remove('active-page');
-                    page2.classList.add('active-page');
-                    typeMessage(message);
-                }, 1000); // Đợi 1 giây để chuyển trang
-            }, 800); // Đợi 0.8 giây sau khi bình nổ
+            }, 800); // Đợi 0.8 giây sau khi bình nổ để chuyển trang
         }, 5000); // Đợi 5 giây để bắt đầu phản ứng
     }, 2000); // Hiển thị dòng chữ sau 2 giây
 

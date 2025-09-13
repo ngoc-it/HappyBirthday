@@ -3,8 +3,8 @@ body {
     font-family: 'Times New Roman', Times, serif; 
     margin: 0;
     padding: 0;
-    background-color: #2c3e50;
-    color: #ecf0f1;
+    background-color: #d0eaff; /* Màu nền xanh baby blue */
+    color: #a182b8; /* Chữ màu tím lavender */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,18 +30,18 @@ body {
     opacity: 1;
 }
 .page-1 {
-    background-color: #2c3e50;
+    background-color: #d0eaff; /* Màu nền xanh baby blue cho trang 1 */
 }
 header h1 {
     font-size: 3.5em;
-    color: #f1c40f; 
+    color: #f25c78; /* Chữ màu hồng dâu tây */
     animation: slideInFromTop 1.5s ease-out;
     margin-bottom: 20px;
 }
 #instruction {
     font-size: 1.5em;
     font-weight: bold;
-    color: #bdc3c7;
+    color: #a182b8; /* Chữ màu tím lavender */
     animation: fadeIn 3s ease-in;
     margin-bottom: 50px;
 }
@@ -58,8 +58,8 @@ header h1 {
     bottom: 0;
     width: 100%;
     height: 100%;
-    background: #ecf0f1;
-    border: 5px solid #bdc3c7;
+    background: #fff; /* Màu trắng cho bình */
+    border: 5px solid #fff59e; /* Viền vàng chanh */
     border-top: none;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -73,7 +73,7 @@ header h1 {
     left: -10px;
     right: -10px;
     height: 15px;
-    background: #bdc3c7;
+    background: #fff59e; /* Viền trên vàng chanh */
     border-radius: 10px;
 }
 .liquid {
@@ -82,7 +82,7 @@ header h1 {
     left: 0;
     width: 100%;
     height: 150px;
-    background: #3498db;
+    background: #4caf50; /* Nước màu xanh lá cây */
     transition: all 1s ease-in-out;
 }
 
@@ -112,7 +112,7 @@ header h1 {
     position: absolute;
     width: 10px;
     height: 10px;
-    background-color: #f39c12; 
+    background-color: #ff9800; /* Pháo giấy màu cam */
     border-radius: 50%;
     transform: translate(-50%, -50%);
     animation: confetti-fall 2s ease-out forwards;
@@ -124,7 +124,7 @@ header h1 {
 
 /* Trang 2: Lời chúc */
 .page-2 {
-    background-color: #34495e; 
+    background-color: #d0eaff; /* Màu nền xanh baby blue cho trang 2 */
     display: flex; 
     justify-content: center; 
     align-items: center; 
@@ -135,7 +135,7 @@ header h1 {
     width: 90%;
     padding: 40px;
     border-radius: 15px;
-    background-color: rgba(44, 62, 80, 0.8);
+    background-color: rgba(255, 255, 255, 0.8); /* Hộp lời chúc màu trắng trong suốt */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: left;
 }
@@ -145,14 +145,14 @@ header h1 {
     line-height: 1.8;
     white-space: pre-wrap; 
     overflow: hidden;
-    color: #e67e22; 
-    border-right: .15em solid #e67e22; 
+    color: #6a1b9a; /* Chữ gõ màu tím đậm */
+    border-right: .15em solid #6a1b9a; 
 }
 .signature {
     margin-top: 30px;
     font-style: italic;
     font-size: 1.2em;
-    color: #bdc3c7;
+    color: #f25c78; /* Chữ ký màu hồng dâu tây */
     text-align: right;
     animation: fadeIn 3s ease-in 4s forwards;
     opacity: 0;
