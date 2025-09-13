@@ -1,0 +1,68 @@
+/* Thiết lập font chữ và màu sắc chung */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #fce4ec; /* Màu hồng nhạt */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container chính của trang */
+.container {
+    max-width: 800px;
+    width: 100%;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Tiêu đề chính */
+header h1 {
+    font-size: 3em;
+    color: #e91e63; /* Màu hồng đậm */
+    margin-bottom: 20px;
+}
+
+/* Nội dung tin nhắn */
+.message p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Phần hình ảnh */
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Phần chữ ký */
+footer p {
+    margin-top: 30px;
+    font-style: italic;
+    color: #777;
+}
+
+/* Responsive Design - Media Queries */
+/* Dành cho màn hình nhỏ hơn 600px (điện thoại) */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    .message p {
+        font-size: 1em;
+    }
+}
