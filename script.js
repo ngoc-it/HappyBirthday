@@ -20,7 +20,9 @@ Nhân ngày sinh nhật, gửi đến cô những lời chúc tốt đẹp nhấ
 Chúc cô luôn dồi dào sức khỏe, tràn đầy niềm vui, và gặt hái được nhiều thành công hơn nữa trên con đường sự nghiệp trồng người.
 Mong rằng sau này dù con có thay đổi ra sao trưởng thành như thế nào thì trong mắt cô con vẫn luôn là con nhóc 16 - 17 tuổi của năm đó vô tư và ... rất thích kiếm chuyện với cô hihi!!
 
-Xin chút cô tuổi mới thật hạnh phúc và bình an!`;
+Xin chút cô tuổi mới thật hạnh phúc và bình an!
+Yêu cô nhiều lắm luôn!
+- Cục nghiệp cưng của cô.`;
 
     // Hiệu ứng tuần tự
     setTimeout(() => {
