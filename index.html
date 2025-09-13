@@ -3,26 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chúc mừng sinh nhật!</title>
+    <title>Chúc mừng sinh nhật cô giáo!</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+
+    <div class="page page-1 active-page">
         <header>
-            <h1>Chúc mừng sinh nhật!</h1>
+            <h1>Chúc mừng sinh nhật cô!</h1>
+            <p id="instruction"></p>
         </header>
-        <main>
-            <div class="message">
-                <p>Một tuổi mới, chúc bạn thật nhiều niềm vui, hạnh phúc và thành công trên con đường phía trước.</p>
-                <p>Mãi mãi rạng ngời và luôn nở nụ cười thật tươi nhé!</p>
+        <div class="beaker-container">
             </div>
-            <div class="image-section">
-                <img src="https://via.placeholder.com/600x400" alt="Bánh sinh nhật">
-            </div>
-        </main>
-        <footer>
-            <p>Người gửi: Tên bạn</p>
-        </footer>
     </div>
+
+    <div class="confetti-container"></div>
+
+    <div class="page page-2">
+        <div class="message-box">
+            <p id="typed-text"></p>
+            <p class="signature">Học trò lớp Hóa</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
 </body>
 </html>
